@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Slide Navbar</title>
+</head>
+<body>
+       <h1 class="title">OFC Luminance Membership Form</h1>
+       <p class="p">"Discover Your Signature Glow:Join Us Now For a Journey of Transformation!"</p>
+
+       <div>
+        <h2 class="border-1">Personal Details</h2>
+       </div>
+     <form>
+      <fieldset>
+        <legend class="icon"> Name</legend>
+        <input type="text" name="text" placeholder="First name" required>
+        <input type="text" name="text" placeholder="Last name" required>
+      </fieldset>
+
+      <fieldset>
+        <legend class="icon">Email</legend>
+        <input type="email" name="email" placeholder="example@example.com" required>
+      </fieldset>
+
+      <fieldset>
+        <legend class="icon">Address</legend>
+        <input type="text" name="address" placeholder="Location" required>
+      </fieldset>
+
+      <fieldset>
+        <legend class="icon">Phone</legend>
+        <input type="tel" name="phone_number" placeholder="+234" required>
+      </fieldset>
+       
+      <fieldset>
+        <legend class="icon">Age</legend>
+        <select id="age" name="age">
+        <option value="">Select your age range</option>
+        <option value="under18">Under 18</option>
+        <option value="18to25">18 - 25</option>
+        <option value="26to35">26 - 35</option>
+        <option value="36to45">36 - 45</option>
+        <option value="36to45">46 - 55</option>
+        </select>
+      </fieldset>
+    
+      <fieldset>
+        <legend class="icon">Gender</legend>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+      </fieldset>
+  
+     </form>
+    
+     <form>
+        <div>
+        <h2 class="border-2">Profile</h2>
+        </div>
+      <fieldset>
+        <div>
+        <label for="experience" class="icon1" >Previous Experience with Makeup (if any):</label>
+        <textarea class id="experience" name="experience"  placeholder="Tell us about any past encounters with makeup..." rows="2" cols="40"></textarea>
+        </div>
+      </fieldset>
+     
+       <fieldset>
+        <div>
+        <label class="icon1">Areas of Interest:</label></div>
+        <div>
+        <label><input type="checkbox" name="interest" value="special_effects"> Special Effects</label><br>
+        <label><input type="checkbox" name="interest" value="bridal"> Bridal</label><br>
+        <label><input type="checkbox" name="interest" value="editorial"> Editorial</label><br>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+        <label for="goals" class="icon1" >Goals for the Training:</label>
+        <textarea class id="goals" name="goals" placeholder="Share your aspirations and objectives for the training..." rows="2" cols="40"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+         <label for="allergies" class="icon1">Allergies or Sensitivities:</label>
+         <textarea id="allergies" name="allergies"  rows="2" cols="40" placeholder="Please list any allergies or sensitivities..."></textarea>
+      </fieldset>
+
+      
+        <fieldset>
+          <div>
+        <label for="emergency_contact_info" class="icon1">Emergency Contact Info:</label></div>
+        <div class="form-group">
+            <input type="text" id="emergency_contact_name" name="emergency_contact_name" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <input type="text" id="emergency_contact_relationship" name="emergency_contact_relationship" placeholder="Enter relationship">
+        </div>
+    
+        <div class="form-group">
+            <input type="tel" id="emergency_contact_phone" name="emergency_contact_phone" placeholder="Enter phone number">
+        </div>
+      </fieldset>
+    </form>
+
+     
+   <!--<div class="login">
+     <form>
+        <label for="chk" aria-hidden="true">Login</label>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="pswd" placeholder="Password" required>
+        <button>Login</button>
+     </form>
+
+   </div>-->
+   
+</body>
+</html>
